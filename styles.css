@@ -1,0 +1,199 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	background-color: #F6FDC3;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: gold;
+}
+
+.logo {
+	padding-left: 30px;
+	color: #561C24;
+	cursor: pointer;
+}
+
+.logo:hover {
+	transform: scale(1.2);
+	transition: all ease .3s
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav ul li {
+	list-style-type: none;
+	padding: 0 20px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: brown;
+	padding: 8px 15px;
+	background-color: #FF9B50;
+	border-radius: 12px;
+	box-shadow: 1px 2px 3px #FF9B50;
+}
+
+nav li a:hover {
+	color: #C63D2F;
+	text-decoration: underline;
+	text-underline-offset: 8px;
+}
+
+.Download {
+	padding-right: 30px;
+}
+
+.Download a {
+	text-decoration: none;
+	color: brown
+	padding: 8px 15px;
+	background-color: #FF9B50;
+	border-radius: 15px;
+}
+
+.title-hero {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.title-hero h1 {
+	color: #561C24;
+}
+
+.title-hero p {
+	color: black;
+}
+
+.image-hero img {
+	display: block;
+	width: 80%;
+	margin : 0 auto;
+	border-radius: 20px;
+	box-shadow: 5px 8px 20px gold;
+}
+
+.image-hero img:hover {
+	transform: scale(.8);
+	transition: 2s;
+}
+
+#about {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#about h2 {
+	padding-top: 40px;
+	color: #561C24;
+}
+
+hr {
+	width: 30%;
+}
+
+#shop {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#shop h2 {
+	padding-top: 40px;
+	color: #561C24;
+}
+
+.cards {
+	background-color: #F2F597;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap:20px;
+	margin: 0 auto;	
+	justify-content: center;
+}
+
+.card {
+	padding: 20px;
+	width: 250px;
+	border: 1px solid #FFCF96;
+}
+
+.card img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.card img:hover {
+	transform: scale(1.1);
+	transition: 0.3s
+}
+
+.container {
+	text-align: center;
+}
+
+.card p {
+	background-color: #FFF3CF
+}
+
+.card a {
+	text-decoration: none;
+	color: black;
+	margin-left: 90px;
+	border: 1px #F9E897;
+	padding: 10px 40px
+	border-radius: 15px;
+	box-shadow: 1px 2px 4px;
+}
+
+.card a:hover {
+	background-color: brown;
+	color: gold;
+}
+
+#contact {
+	width: 95%
+	margin: 40px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 30px;
+}
+
+.image-contact {
+	width: 50%;
+}
+
+.image-contact img {
+	width: 100%;
+}
+
+
+footer {
+	width: 95%;
+	margin: 60px auto;
+	background-color: gold;
+	padding: 20px;
+	color: brown;
+	text-align: center;
+	& p {
+		text-decoration: none;
+		& a {
+			text-decoration: none;
+		}
+	}
+}
